@@ -1,0 +1,80 @@
+/* utilities starts */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+/* utilities ends */
+
+header {
+    background-color: darkolivegreen;
+    padding: 10px;
+}
+
+/* column left starts */
+.col-left {
+    flex: 3;
+}
+
+.box1 {
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+
+.box1-child1 {
+    margin: 10px;
+}
+/* column left ends */
+
+/* column right starts */
+.col-right {
+    flex: 2;
+    align-self: flex-start;
+}
+
+.box-right {
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+/* column right ends */
+
+.login {
+    background-color: dodgerblue;
+    padding: 5px;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.likes {
+    background-color: goldenrod;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.remove-btn {
+    background-color: lightseagreen;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p {
+    font-weight: 500;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Button_Clicker.css">
+</head>
+<body>
+    <script src="Button_Clicker.js"></script>
+
+    <header class="container flex">
+        <div class="header-bar flex">
+            <h1>Dojonary</h1>
+            <input type="text" id="search-bar" name="search bar" placeholder="Search">
+            <button class="login" onclick="logOut(this)">Login</button>
+        </div>
+    </header>
+
+    <main class="container flex">
+        <div class="col-left">
+            <div class="box1 flex">
+                <div class="box1-child1">
+                    <h1>ninja</h1>
+                    <span><em>noun</em></span>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes" onclick="alertMe(this)">13 likes</button>
+                </div>
+                <div class="box1-child2">
+                    <p>A practioner skilled in the<br><a href="#">Japanese</a>
+                    art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="box1 flex">
+                <div class="box1-child1">
+                    <h1>ninja</h1>
+                    <span><em>noun</em></span>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes">37 likes</button>
+                </div>
+                <div class="box1-child2">
+                    <p>A <a href="#">Programmer</a> who breaks<br>
+                    down problems with <a href="#">zen</a>-like<br>
+                    focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-right">
+            <div class="box-right">
+                <p>Dojonary is defined by <strong>YOU</strong></p>
+                <button class="remove-btn" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
